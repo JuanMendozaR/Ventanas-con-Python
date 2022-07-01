@@ -1,0 +1,11 @@
+from tkinter import *
+
+window = Tk()
+
+window.title("Q-bit")
+window.geometry('350x200')
+etiqueta = Label(window, text="Hello Word", font=("Arial Bold" , 50))
+
+etiqueta.grid(column=0, row=0)
+
+window.mainloop()
